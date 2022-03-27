@@ -11120,6 +11120,12 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+.header {
+  background: #ffffffb3;
+  backdrop-filter: blur(10px) contrast(130%);
+  z-index: 1008;
+}
+
 .post-img {
   width: 100%;
   height: 350px;
@@ -11137,6 +11143,17 @@ textarea.form-control-lg {
   width: 70px;
   height: 50px;
   object-fit: cover;
+}
+
+.post {
+  margin-bottom: 5opx;
+  padding-bottom: 50px;
+  border-bottom: 1px solid #096a71;
+}
+
+.arrow {
+  bottom: 100px;
+  right: 0px;
 }
 
 /*# sourceMappingURL=app.css.map */

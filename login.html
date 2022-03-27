@@ -10,40 +10,43 @@
 </head>
 <body>
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
+    <nav class="navbar navbar-expand-lg navbar-dark header top-0 position-fixed w-100 shadow-sm">
         <div class="container">
             <a class="navbar-brand" href="index.html">
-                <img src="images/logo.png" alt="" height="60px">
+                <img src="images/logo.png" alt="" height="50px">
             </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-              <li class="nav-item">
+              <li class="nav-item btn btn-sm btn-success rounded">
                 <a class="nav-link active" aria-current="page" href="login.html">Login</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="register.html">Register</a>
+              <li class="nav-item btn btn-sm btn-warning rounded ms-1">
+                <a class="nav-link text-black" href="register.html">Register</a>
               </li>
             </ul>
           </div>
         </div>
     </nav>
     <div class="container my-5">
-        <div class="row  justify-content-center">
-            <div class="col-lg-4 ">
+        <div class="row  justify-content-center min-vh-100 pt-5">
+            <div class="col-12 col-lg-4 ">
                <div class="row ">
                     <div class="login text-center">
-                        <p class=" h3 fw-bold">Sign in</p>
+                        <p class=" h3 fw-bold">
+                            <i class=" fa-solid fa-arrow-right-from-bracket"></i>
+                            Sign in
+                        </p>
                         <p>Doesn't have an account yet? 
                             <span>
-                                <a href="#" class="">Sign up here</a>
+                                <a href="register.html" class="">Sign up here</a>
                             </span> 
                         </p>
                     </div>
                     <div class=" col mb-3">
-                        <a href="#" class=" btn btn-outline-dark w-100">
+                        <a href="#" class=" btn btn-lg rounded btn-outline-dark w-100">
                             Sign in with Google
                         </a>
                     </div>
@@ -55,14 +58,14 @@
                         <label for="" class=" form-label">
                             <small>Username</small>
                         </label>
-                        <input type="text" class=" form-control">
+                        <input type="text" class=" form-control form-control-lg rounded">
                     </div>
                     <div class=" mb-3">
                         <i class=" fa-solid fa-lock"></i>
                         <label for="" class=" form-label">
                             <small>password</small>
                         </label>
-                        <input type="password" class=" form-control">
+                        <input type="password" class=" form-control form-control-lg rounded">
                     </div>
                     <div class=" mb-3">
                         <div class="form-check">
@@ -73,7 +76,7 @@
                           </div>
                     </div>
                     <div class=" mb-3">
-                        <a href="#" class=" btn btn-primary w-100">Sign in</a>
+                        <a href="index.html" class=" btn btn-lg btn-primary rounded w-100">Sign in</a>
                     </div>
 
                </div>
